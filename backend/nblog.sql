@@ -259,7 +259,7 @@ INSERT INTO `site_setting` VALUES (12, 'badge', '徽标', '{\"title\":\"GitHub �
 INSERT INTO `site_setting` VALUES (13, 'badge', '徽标', '{\"title\":\"本站点采用 CC BY 4.0 国际许可协议进行许可\",\"url\":\"https://creativecommons.org/licenses/by/4.0/\",\"subject\":\"CC\",\"value\":\"BY 4.0\",\"color\":\"lightgray\"}', 2);
 INSERT INTO `site_setting` VALUES (14, 'avatar', '图片路径', '/img/avatar.jpg', 3);
 INSERT INTO `site_setting` VALUES (15, 'name', '昵称', 'Vanadyl', 3);
-INSERT INTO `site_setting` VALUES (16, 'rollText', '滚动个签', '\"云鹤当归天，天不迎我妙木仙；\",\"游龙当归海，海不迎我自来也。\"', 3);
+INSERT INTO `site_setting` VALUES (16, 'rollText', '滚动个签', '\"変わりたいなら変わればいい。；\"', 3);
 INSERT INTO `site_setting` VALUES (17, 'github', 'GitHub地址', 'https://github.com/Vanadyl', 3);
 INSERT INTO `site_setting` VALUES (18, 'qq', 'QQ链接', 'http://sighttp.qq.com/authd?IDKEY=', 3);
 INSERT INTO `site_setting` VALUES (19, 'bilibili', 'bilibili链接', 'https://space.bilibili.com/', 3);

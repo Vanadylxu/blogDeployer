@@ -8,14 +8,22 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "aplayer": "^1.10.1",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "element-ui": "^2.15.1",
     "got": "^11.8.2",
     "moment": "^2.29.1",
+    "nprogress": "^0.2.0",
+    "path": "^0.12.7",
+    "prismjs": "^1.23.0",
+    "sanitize-html": "^2.3.3",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-vue": "^0.11.0",
+    "tocbot": "^4.12.3",
     "viewerjs": "^1.9.0",
     "vue": "^2.6.11",
+    "vue-prism-editor": "^1.2.2",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
   },
@@ -29,6 +37,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "v-viewer": "^1.5.1",
+    "vue-prism": "^1.0.5",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -43,7 +52,11 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "vue/no-unused-components": "warn",
+      "vue/no-unused-vars": "warn",
+      "vue/no-use-v-if-with-v-for": "warn"
+    }
   },
   "browserslist": [
     "> 1%",

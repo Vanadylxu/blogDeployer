@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+
 //自定义css
 import './assets/css/base.css'
 //阿里icon
@@ -21,13 +22,11 @@ import 'viewerjs/dist/viewer.css'
 import Viewer from 'v-viewer'
 //directive
 import './util/directive'
+import VuePrism from 'vue-prism'
+Vue.use(VuePrism)
 
-console.log(
-    '%c BlogDeployer %c By Vanadyl %c https://github.com/Naccl/NBlog',
-    'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
-    'background:#41b883 ; padding: 1px; border-radius: 0 3px 3px 0;  color: #000',
-    'background:transparent'
-)
+import 'prismjs/themes/prism.css'
+
 
 Vue.use(SuiVue)
 Vue.use(Element)
